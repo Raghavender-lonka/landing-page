@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* h1 {
+  color: tomato;
+} */
+button {
+  background-color: tomato;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  /* width: 100%; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  /* border-bottom: 1px solid gray; */
+  /* background-color: #666; */
+  /* box-shadow: 1px 1px 10px gray; */
+  box-shadow: #808080 1px 1px 12px 0px;
+  position: relative;
+  z-index: 10;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+}
+
+.main-content {
+  display: flex;
+  padding: 0 13.5rem;
+  justify-content: center;
+  background-color: white;
+  gap: 5rem;
+}
+
+.main-content__left {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 645px;
+}
+.main-content__left h1 {
+  color: tomato;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 45px;
+}
+
+.main-content__left p {
+  font-size: 1.2rem;
+  line-height: 30px;
+  color: #666;
+}
+
+.main-content__right {
+  width: 404px;
+  height: 377px;
+}
+
+.services {
+  background-color: #fafafa;
+  padding: 2.5rem 8rem;
+  height: 814px;
+  /* height: fit-content; */
+}
+.services h1 {
+  text-align: center;
+  color: tomato;
+  /* font-weight: 900; */
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services-left {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  height: 577px;
+  gap: 1rem;
+}
+.service {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.service img {
+  width: 38px;
+  height: 38px;
+}
+.serive-details {
+  display: flex;
+  flex-direction: column;
+  width: 236px;
+  height: 192px;
+  justify-content: space-around;
+}
+.serive-details h3 {
+  margin: 0;
+}
+
+.services-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-map {
+  width: 500px;
+  height: 253px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem 10rem;
+}
+
+.features-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 0.4;
+}
+
+.features-info h1 {
+  color: tomato;
+}
+
+.features-list {
+  flex: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.features-list div {
+  /* flex: 0.6; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 210px;
+  /*height: 104px; */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.customers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 3.5rem 10rem;
+  gap: 1rem;
+}
+
+.customers .customers-row-1 img {
+  width: 100px;
+  height: 100px;
+  margin: 3rem;
+}
+
+.customers .customers-row-2 img {
+  /* width: 200px;
+  height: 100px; */
+  margin: 3rem;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #fafafa; */
+  padding: 3.5rem 10rem;
+  gap: 1rem;
+}
+.map h1 {
+  color: tomato;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fafafa;
+  padding: 3.5rem 10rem;
+  padding-bottom: 0;
+  gap: 1rem;
+}
+
+.footer-details {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-details div ul {
+  list-style: none;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  gap: 2rem;
+  list-style: none;
+  font-size: 40px;
+}
+
+.footer-copyright {
+  width: 100%;
+  text-align: center;
+}
