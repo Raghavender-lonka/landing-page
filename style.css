@@ -3,9 +3,9 @@
   box-sizing: border-box;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* width: 100vw; */
   padding: 0;
   margin: 0;
   overflow-x: hidden;
@@ -504,22 +504,46 @@ footer {
   font-size: x-large;
 }
 
-@media all and (max-width: 460px) {
-  /* html {
-    width: 100%;
-  } */
+/* @media all and (max-width: 740px) {
   body {
-    width: 169%;
+    width: 100vw;
+  }
+  .logoHeader-bottom {
+    display: none;
+  }
+} */
+
+@media all and (max-width: 460px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+    overflow-x: hidden;
+  }
+  .logoHeader {
+    height: 100px;
   }
   .logoHeader-top {
-    /* margin: 0; */
-    width: 150%;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
   }
   .logoHeader-bottom {
     display: none;
   }
   .logo {
     margin-left: 0;
+    margin-right: 50px;
+  }
+  .buttonHeader {
+    width: 100px;
+  }
+  .buttonHeader .track {
+    display: none;
   }
   .signIn {
     padding: 0%;
@@ -529,105 +553,98 @@ footer {
   }
   .mainBody {
     position: relative;
-    top: 90px;
+    top: 101px;
     width: 110%;
+    left: -20px;
   }
-
-  /* .logoHeader {
-    width: 100%;
+  .mainContent-textContainer {
+    padding: 20px;
+    text-align: center;
+    height: 360px;
   }
-
   .product-list {
-    display: none;
+    margin: 0;
+    position: relative;
+    left: -20px;
+    margin-top: 2rem;
   }
-  .logo {
-    margin: 1rem;
-  }
-  .companyLogo {
-    width: 45px;
-  }
-  .companyTitle {
-    font-size: 1.5rem;
-  }
-  .signIn {
-    padding: 0%;
-  }
-  .buttonHeader {
-    margin-right: 0;
-  }
-
-  .bookDemo {
-    display: none;
-  }
-  .getQuote {
-    display: none;
-  }
- 
- 
-  .mainContent {
-    height: fit-content;
-    background-image: none;
-  }
-
-  .mainContent {
-    background-image: none;
-  }
-
-  .hero-container {
-    margin-top: 20%;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .bosch-logo {
-    width: 250px;
-  }
-  .hero {
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 2rem;
-    justify-content: center;
-  }
-  .hero a {
-    margin-right: 0;
-  }
-  .hero-paragraph {
-    padding: 5%;
+  .product {
+    width: 180px;
   }
 
   .company-info-container {
-    margin-top: 100px;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
   }
-  .company-info-specials {
-    gap: 3rem;
+  .company-info-content {
+    padding: 2rem;
   }
-
-  .form {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-    height: 28vh;
+  .company-info-specials,
+  .company-info-item {
+    padding: 1rem;
+  }
+  .company-info-item img {
+    display: none;
+  }
+  .hero-container {
+    margin-top: 0;
+  }
+  .hero {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
+    padding: 1rem;
+    padding-left: 5rem;
   }
-  .form-container {
+  .hero a {
+    margin-bottom: 1rem;
+  }
+  .hero-paragraph {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    padding: 0 5rem;
+  }
+  .testimonials {
+    padding: 1rem;
     gap: 1rem;
   }
-  .form-container input,
+  .testimonials h1 {
+    padding: 0 1rem;
+  }
+  .testimonialsContainer {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .get-quote {
+    padding: 1rem;
+  }
+  .form {
+    padding: 1rem;
+    height: 15rem;
+    flex-direction: column;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
   .form-container button {
     width: 100%;
   }
-  .get-quote {
-    padding: 0%;
-  } */
+  footer {
+    padding: 2% 10%;
+  }
+  .footer-item-content ul {
+    padding-left: 0;
+  }
+  .footer-item {
+    padding-right: 2rem;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
