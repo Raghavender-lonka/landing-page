@@ -506,6 +506,7 @@ footer {
 
 /* @media all and (max-width: 740px) {
   body {
+<<<<<<< HEAD
     width: 100vw;
   }
   .logoHeader-bottom {
@@ -531,6 +532,13 @@ footer {
     border-bottom: 1px solid black;
     display: flex;
     justify-content: space-evenly;
+=======
+    width: 100%;
+  }
+  .logoHeader-top {
+    /* margin: 0; */
+    width: 100%;
+>>>>>>> 4ad485f02dbdc925295f0b19ac43526b2951f5a6
   }
   .logoHeader-bottom {
     display: none;
