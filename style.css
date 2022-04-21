@@ -573,7 +573,6 @@ footer {
   .product-list {
     margin: 0;
     position: relative;
-    left: -20px;
     margin-top: 2rem;
   }
   .product {
