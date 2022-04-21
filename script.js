@@ -5,9 +5,9 @@ var images = new Array(
   "images/pic3.jpeg"
 )
 var nextimage = 0
-if (window.innerWidth > 460) {
-  doSlideshow()
-}
+// if (window.innerWidth > 460) {
+doSlideshow()
+// }
 
 function doSlideshow() {
   if (nextimage >= images.length) {

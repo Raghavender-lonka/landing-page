@@ -10,9 +10,9 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
-html {
+/* html {
   width: 100%;
-}
+} */
 
 .center {
   display: flex;
@@ -505,15 +505,38 @@ footer {
 }
 
 @media all and (max-width: 460px) {
-  .logoHeader {
+  /* html {
     width: 100%;
+  } */
+  body {
+    width: 169%;
   }
   .logoHeader-top {
-    margin: 0;
+    /* margin: 0; */
+    width: 150%;
   }
   .logoHeader-bottom {
     display: none;
   }
+  .logo {
+    margin-left: 0;
+  }
+  .signIn {
+    padding: 0%;
+  }
+  .cartText {
+    display: none;
+  }
+  .mainBody {
+    position: relative;
+    top: 90px;
+    width: 110%;
+  }
+
+  /* .logoHeader {
+    width: 100%;
+  }
+
   .product-list {
     display: none;
   }
@@ -532,42 +555,24 @@ footer {
   .buttonHeader {
     margin-right: 0;
   }
-  .cartText {
-    display: none;
-  }
+
   .bookDemo {
     display: none;
   }
   .getQuote {
     display: none;
   }
-  .mainBody {
-    position: relative;
-    top: 80px;
-    width: 110%;
-  }
-  /* .main-container {
-    left: 0px;
-    top: 50px;
-    width: 100%;
-  } */
+ 
+ 
   .mainContent {
     height: fit-content;
     background-image: none;
   }
-  /* .quote-box {
-    padding: 0;
-    margin: 0;
-  } */
+
   .mainContent {
     background-image: none;
   }
-  /* .main-bottom-container {
-    flex-direction: column;
-  }
-  .main-bottom-three {
-    margin-top: 2rem;
-  } */
+
   .hero-container {
     margin-top: 20%;
     justify-content: center;
@@ -578,12 +583,10 @@ footer {
     width: 250px;
   }
   .hero {
-    /* margin-top: 0px; */
     display: flex;
     flex-direction: row;
     width: fit-content;
     flex-wrap: wrap;
-    /* padding: 3rem; */
     align-items: center;
     gap: 2rem;
     justify-content: center;
@@ -603,12 +606,7 @@ footer {
   .company-info-specials {
     gap: 3rem;
   }
-  /* .services-container {
-    margin-top: 100px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    gap: 3rem;
-  } */
+
   .form {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -631,5 +629,5 @@ footer {
   }
   .get-quote {
     padding: 0%;
-  }
+  } */
 }
