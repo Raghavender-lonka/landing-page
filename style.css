@@ -509,11 +509,11 @@ footer {
     width: 100%;
   } */
   body {
-    width: 169%;
+    width: 100%;
   }
   .logoHeader-top {
     /* margin: 0; */
-    width: 150%;
+    width: 100%;
   }
   .logoHeader-bottom {
     display: none;
